@@ -1,0 +1,66 @@
+/* css selectors */
+
+.color-blue.fw-italic {
+  /* fontu normal olan elementleri mavi yap */
+  color: blue;
+  font-weight: italic;
+}
+
+li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: blue;
+}
+
+/*
+li:nth-child(odd) {
+    color: blue;
+}
+li:nth-child(even) {
+    color: blue;
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* birden fazla tag'i ektilemek için */
+  color: green;
+}
+h1 {
+  font-style: italic;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#article1 {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
